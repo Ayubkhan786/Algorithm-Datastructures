@@ -1,0 +1,15 @@
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\bin\Debug\net6.0\Algorithm and DataStructures.exe
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\bin\Debug\net6.0\Algorithm and DataStructures.deps.json
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\bin\Debug\net6.0\Algorithm and DataStructures.runtimeconfig.json
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\bin\Debug\net6.0\Algorithm and DataStructures.dll
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\bin\Debug\net6.0\Algorithm and DataStructures.pdb
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.csproj.AssemblyReference.cache
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.AssemblyInfoInputs.cache
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.AssemblyInfo.cs
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.dll
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\refint\Algorithm and DataStructures.dll
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.pdb
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\Algorithm and DataStructures.genruntimeconfig.cache
+C:\Users\Ayub\source\repos\Algorithm and DataStructures\Algorithm and DataStructures\obj\Debug\net6.0\ref\Algorithm and DataStructures.dll
