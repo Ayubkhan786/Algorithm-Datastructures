@@ -7,3 +7,4 @@ Console.WriteLine("Prime Numbers");
 
 AlgorithmDataStructures algorithmDataStructures = new AlgorithmDataStructures();
 algorithmDataStructures.DisplayPrime();
+ algorithmDataStructures.FindPalindrome();
