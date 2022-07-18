@@ -50,21 +50,21 @@ namespace Algorithm_and_DataStructures
                     return false;
                 }
             }
-        public void FindAnagram(String fix, String s)
+        public void FindAnagram(string x, string y)
         {
-            int l = s.Length;
+            int l = y.Length;
             if (l == 1)
             {
-                Console.WriteLine(fix + s);
+                Console.WriteLine(x + y);
             }
             else
             {
                 for (int i = 0; i < l; i++)
                 {
-                    char[] mychar = s.ToCharArray();
+                    char[] mychar = y.ToCharArray();
                     char c = mychar[i];
-                    String st = s.Substring(0, i) + s.Substring(i + 1);
-                    FindAnagram(fix + c, st);
+                    string st = y.Substring(0, i) + y.Substring(i + 1);
+                    FindAnagram(x + c, st);
                 }
             }
         }
