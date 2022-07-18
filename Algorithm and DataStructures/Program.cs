@@ -1,10 +1,11 @@
 ﻿using Algorithm_and_DataStructures;
 
 
-Console.WriteLine("Prime Numbers");
+Console.WriteLine("Insertion Sort");
 
 
 
 AlgorithmDataStructures algorithmDataStructures = new AlgorithmDataStructures();
-algorithmDataStructures.DisplayPrime();
- algorithmDataStructures.FindPalindrome();
+Console.WriteLine("Type a Message");
+string msg = Console.ReadLine();
+algorithmDataStructures.Insertion_Sort(msg);
