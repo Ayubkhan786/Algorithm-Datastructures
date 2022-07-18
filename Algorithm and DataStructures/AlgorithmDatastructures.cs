@@ -9,29 +9,69 @@ namespace Algorithm_and_DataStructures
     public class AlgorithmDataStructures
     {
 
-        public void DisplayPrime()
+        public static string[] Merge_Sort(string[] a, int lo, int hi)
         {
-
-            int p = 1000;     // total value to be found
-            bool n = true;       // Lets assume n = prime number 
-            int i, j;
-            for (i = 2; i <= p; i++)
+            if (lo < hi)
             {
-                for (j = 2; j <= p; j++)
-                    if (i != j && i % j == 0)        //If both are not equal and the modulus is zero then
-                    {
-                        n = false;                   // It's not a prime Number
-                        break;
-                    }
-
-                if (n)
-                {
-                    Console.WriteLine("\n" + i);           //Remaining are Prime Numbers 
-                }
-                n = true;
-
+                int mid = (lo + hi) / 2;
+                //first half
+                Merge_Sort(a, lo, mid);
+                //second half
+                Merge_Sort(a, mid + 1, hi);
+                //merging both the halves
+                merge(a, lo, mid, hi);                      
             }
-            Console.ReadKey();                   // It is used to Avoid Continous Loop/after execution it waits
+            return a;
+        }
+        public static void merge(string[] a, int lo, int mid, int hi)
+        {
+            string[] arr = new string[a.Length];
+            //Indexes for the arrays
+            int First = lo;                      
+            int Sec = mid + 1;               
+            int Third = lo;                     
+            while (First <= mid && Sec <= hi)
+            {
+                //First array is less than Sec array then 
+                if (a[First].CompareTo(a[Sec]) <= 0) 
+                {
+                    arr[Third] = a[First];
+                    First++;
+                }
+                //First array is greater than Sec array then 
+                else                                         
+                {
+                    arr[Third] = a[Sec];
+                    Sec++;
+                }
+                Third++;                                   
+            }
+            //If First half Completed then
+            if (First > mid)                                
+            {
+                while (Sec <= hi)
+                {
+                    arr[Third] = a[Sec];
+                    Sec++;
+                    Third++;
+                }
+            }
+            //If Second half Completed then
+            if (Sec > hi)                            
+            {
+                while (First <= mid)
+                {
+                    arr[Third] = a[First];
+                    First++;
+                    Third++;
+                }
+            }
+            //Copy the arrays and make it equal
+            for (int A = lo; A <= hi; A++)                 
+            {
+                a[A] = arr[A];
+            }
         }
     }
 }
+
